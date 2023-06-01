@@ -1,0 +1,7 @@
+.articlesContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}

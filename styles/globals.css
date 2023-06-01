@@ -1,0 +1,44 @@
+/* RESET CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,500;1,600&display=swap');
+
+
+:root {
+  --yellow-color : rgb(233, 190, 89);
+}
+* {
+  margin :0;
+  padding : 0;
+  box-sizing : border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor:pointer
+}
+
+  input {
+    border: none;
+    border-bottom: 1px lightgray solid;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  input:focus {
+    outline: none
+  }
+  
+  button {
+    height: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(233, 190, 89);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+button:hover{
+  text-shadow: 1px 1px 0px rgb(134,131,131);
+}
